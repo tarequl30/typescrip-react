@@ -8,7 +8,7 @@ export const AddTodoForm: React.FC<Props> = ({ addTodo }) => {
   const [text, setText] = useState("")
 
   return (
-    <div className="justify-content-center">
+    <div className="d-flex justify-content-center">
       <form>
         <input
           type="text"
